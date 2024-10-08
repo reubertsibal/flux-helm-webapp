@@ -1,0 +1,10 @@
+appName: myhelmapp
+namespaceName: helm-flux
+imageReplicas: 3
+image: 
+  name: nginx
+  tag: latest
+
+service:
+  name: helm-loadbalancer
+  type: LoadBalancer
