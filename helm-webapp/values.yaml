@@ -1,6 +1,6 @@
 appName: myhelmapp
 namespaceName: helm-flux
-imageReplicas: 2
+imageReplicas: 3
 image: 
   name: nginx
   tag: latest
